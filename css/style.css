@@ -1,0 +1,156 @@
+*{
+	margin:0;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+
+}
+.container{
+	background-color: #f6f6f6;
+	width: 1170px;
+	margin: 0px auto;
+
+}
+.header{
+	width: 1170px;
+	height: 65px;
+	background-color: #e0c3fc;
+	text-align: center;
+}
+
+nav{
+	margin: 0;
+	text-align-last: right;
+}
+nav ul{
+	list-style: none;
+	padding-top: 20px;
+}
+nav ul li{
+	display: inline;
+	margin-right: 30px;
+	background-color: #FFA500;
+	border-radius: 25px;
+	background-size: 15px 35px 
+	color: #fff;
+	padding: 8px 15px;
+
+}
+nav ul li:hover{
+	cursor: pointer;
+	background-color: white;
+	transition: 0.25s;
+	box-shadow: 1px 2px 5px #888;
+}
+.leftpane{
+	height: 450px;
+	width: 20%;
+	background-color: gray;
+	float: left;
+	text-align: center;
+	background-image: url(../images/appsui.jpeg);
+	text-align: center;
+	color: white;
+}
+.leftpane p{
+	padding-top: 200px;
+	padding-left: 05%;
+	
+}
+.center{
+	height: 450px;
+	width: 60%;
+	background-color: green;
+	float: left;
+}
+
+.top{
+	height:100px;
+	width: 100%;
+	background-color: #ABA7CA;
+	text-align: center;
+
+}
+.top p{
+	padding-top: 30px;
+	text-align: center;
+}
+.middle p{
+	padding-top: 130px;
+	text-align: center;
+}
+.bottom p{
+	padding-top: 30px;
+	text-align: center;
+
+}
+.middle{
+	height: 250px;
+	width: 100%;
+	background-color: #CBC8E3;
+	text-align: center;
+	
+}
+.bottom{
+	height: 100px;
+	width: 100%;
+	background-color: #ABA7CA;
+	
+}
+.rightpane{
+	height: 450px;
+	width: 20%;
+	background-color: gray;
+	float: right;
+	background-image: url(../images/BritishAirways.jpeg);
+	background-image: 
+	color: white;
+}
+.rightpane p{
+	padding-top: 200px;
+	padding-left: 35%;
+	color: white;
+}
+.rightpane p{
+	padding-top: 210px;
+	padding-left: 35%;
+	color: white;
+}
+
+.content{
+	overflow: hidden;
+}
+.footer{
+	width: 1170px;
+	height: 65px;
+	background-color: orange;
+	text-align: center;
+}
+.footer p{
+	padding-top: 28px;
+
+}
+/*.header nav{*/
+	height: 50px;
+	text-align-last: right;
+}
+.ul{
+	list-style: none;
+	margin-top: 15px;
+}
+.ul li{
+	display: inline;
+	margin-right: 30px;
+	background-color: maroon;
+	border-radius: 25px;
+	background-size: 15px 35px 
+	color: #fff;
+	padding: 8px 15px;
+
+}
+.nav ul li:hover{
+	cursor: pointer;
+	background-color: orange;
+	transition: 0.3s;
+	box-shadow: 3px 4px 6px #888;
+}
